@@ -12,6 +12,7 @@ def index():
     title="Hung's cave"
     name="Hello"
     content="Welcome the app"
+    #passing title, name and content variable to index.html {{title}}, {{name}}, {{content}}
     return render_template('index.html', title=title, name=name, content=content)
 
 #add another route function name must be different
